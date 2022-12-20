@@ -20,7 +20,7 @@ func main() {
     }
     */
 
-    source := "(){}"
+    source := ">= !"
     scanner := scanner.NewScanner(source)
     tokens := scanner.ScanTokens()
     fmt.Println(tokens)
